@@ -166,7 +166,7 @@ SELECT idProduto,
 
 FROM silver.olist.item_pedido
 GROUP BY idProduto
-ORDER BY qtvenda DESC
+ORDER BY vlReceita DESC
 
 
 -- COMMAND ----------
